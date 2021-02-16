@@ -9,12 +9,20 @@ import json
 
 log = None
 ITEM_T_MAP = {
+  "FLOAT": "float",
+  "CHARACTER": "character",
+  "CHAR": "character",
+  "LOG": "log",
+  "UNSIGNED": "unsigned",
+  "TEXT": "text",
   "0": "float",
   "1": "character",
   "2": "log",
   "3": "unsigned",
   "4": "text",
 }
+DISCOVERY_T_MAP = {
+        }
 TRIGGER_P_MAP = {
   "0": "not_classified",
   "1": "info",
